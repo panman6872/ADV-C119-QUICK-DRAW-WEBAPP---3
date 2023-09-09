@@ -1,0 +1,73 @@
+body {
+    background-color: rgba(42, 202, 168, 0.88);
+    color: darkgreen;
+    font-family: 'Dancing Script', cursive;
+}
+
+#score {
+    margin-left: 5px;
+    font-size: 20px;
+    font-family: 'Dancing Script', cursive;
+}
+
+#timer {
+    float: right;
+    margin-right: 5px;
+    font-size: 20px;
+    font-family: 'Dancing Script', cursive;
+}
+
+h1 {
+    background-color: rgb(55, 173, 124);
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    position: top;
+    top: 0;
+}
+
+#show_sketch {
+    float: right;
+}
+
+p {
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+}
+
+#sketch_to_be_drawn {
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+    color: #363c00;
+}
+
+canvas {
+    border: 5px solid white;
+    border-radius: 20px;
+    animation-name: h;
+    animation-duration: 8s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes h {
+    0% {
+        box-shadow: 1px 1px 350px green;
+    }
+
+    25% {
+        box-shadow: 1px 1px 350px darkgreen;
+    }
+
+    50% {
+        box-shadow: 1px 1px 350px black;
+    }
+
+    75% {
+        box-shadow: 1px 1px 350px darkgreen;
+    }
+
+    100% {
+        box-shadow: 1px 1px 350px green;
+    }
+}
